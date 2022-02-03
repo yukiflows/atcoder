@@ -24,7 +24,7 @@ using vvl  = vector<vector<long>>;
 using vvll = vector<vector<long long>>;
 
 const long long INF = 1e9+7;
-const long long MOD = 1d9+7;
+const long long MOD = 1e9+7;
 
 template <typename T> inline bool chmin(T& a, const T& b) {bool compare = a > b; if(a > b) a = b; return compare;}
 template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b; if(a < b) a = b; return compare;}
