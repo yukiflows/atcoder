@@ -2,7 +2,8 @@
 
 #define pb push_back
 #define mp make_pair
-#define all(v) (v).begin(), (v).end()
+#define all(v)  (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
 #define unique(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
 
 #define rep(i, n)   for(int i = 0; i < (n); i++) 
