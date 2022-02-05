@@ -18,8 +18,8 @@ using namespace std;
 
 using ll = long long;
 
-using pi  = pair<int, int>
-using pl  = pair<long long, long long>
+using pi  = pair<int, int>;
+using pl  = pair<long long, long long>;
 
 using vi  = vector<int>;
 using vl  = vector<long long>;
