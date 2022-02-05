@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 
 #define pb push_back
+#define pf push_front
 #define mp make_pair
+#define mt make_tuple
+
 #define all(v)  (v).begin(), (v).end()
 #define rall(v) (v).rbegin(), (v).rend()
 #define unique(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
@@ -15,14 +18,18 @@ using namespace std;
 
 using ll = long long;
 
+using pi  = pair<int, int>
+using pl  = pair<long long, long long>
+
 using vi  = vector<int>;
-using vl  = vector<long>;
-using vll = vector<long long>;
+using vl  = vector<long long>;
 using vs  = vector<string>;
 
 using vvi  = vector<vector<int>>;
-using vvl  = vector<vector<long>>;
-using vvll = vector<vector<long long>>;
+using vvl  = vector<vector<long long>>;
+
+using vvvi = vector<vector<vector<int>>>;
+using vvvl = vector<vector<vector<long long>>>;
 
 const long long INF = 1e9+7;
 const long long MOD = 1e9+7;
