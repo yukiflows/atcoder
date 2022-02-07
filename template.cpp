@@ -11,8 +11,8 @@
 
 #define rep(i, n)   for(int i = 0; i < (n); i++) 
 #define reps(i, n)  for(int i = 1; i <= (n); i++)
-#define rrep(i, n)  for(int i = (n)-1; i > 0; i--)
-#define rreps(i, n) for(int i = (n); i >= 0; i--)
+#define rrep(i, n)  for(int i = (n)-1; i >= 0; i--)
+#define rreps(i, n) for(int i = (n); i > 0; i--)
 
 using namespace std;
 
