@@ -18,15 +18,16 @@ using namespace std;
 
 using ll = long long;
 
-using pi  = pair<int, int>;
-using pl  = pair<long long, long long>;
+using pi = pair<int, int>;
+using pl = pair<long long, long long>;
 
-using vi  = vector<int>;
-using vl  = vector<long long>;
-using vs  = vector<string>;
+using vi = vector<int>;
+using vl = vector<long long>;
+using vs = vector<string>;
+using vb = vector<bool>;
 
-using vvi  = vector<vector<int>>;
-using vvl  = vector<vector<long long>>;
+using vvi = vector<vector<int>>;
+using vvl = vector<vector<long long>>;
 
 using vvvi = vector<vector<vector<int>>>;
 using vvvl = vector<vector<vector<long long>>>;
