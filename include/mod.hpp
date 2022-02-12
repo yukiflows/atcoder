@@ -7,6 +7,7 @@ long long modpow(long long a, long long x, long long mod) {
     while(x > 0) {
         if(x & 1) ret *= p;
         p *= p;
+        x >>= 1;
         ret %= mod;
         p %= mod;
     }
@@ -14,5 +15,5 @@ long long modpow(long long a, long long x, long long mod) {
 }
 
 long long modinv(long long a, long long mod) {
-    return modpow(a, mod-2)
+    return modpow(a, mod-2, mod);
 }
